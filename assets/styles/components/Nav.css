@@ -1,6 +1,7 @@
 nav {
-	/* background: rgb(255, 158, 158); */
-	position: static;
+	background: var(--secondary-white);
+	position: sticky;
+	top: 0px;
 	height: 10vh;
 	display: flex;
 	align-items: center;

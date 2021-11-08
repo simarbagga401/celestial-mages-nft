@@ -13,6 +13,11 @@
 	--purple: #211835;
 	--primary-white: #ffffff;
 	--secondary-white: #ededed;
+	--text-shadow: -4px 1px 0px rgba(255, 152, 0, 1);
+	--outline-left: -3px 0px 0px rgba(237, 5, 5, 1);
+	--outline-right: 3px 0px 0px rgba(237, 5, 5, 1);
+	--outline-top: 0px -3px 0px rgba(237, 5, 5, 1);
+	--outline-bottom: 0px 3px 0px rgba(237, 5, 5, 1);
 }
 
 *,

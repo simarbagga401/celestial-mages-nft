@@ -4,8 +4,9 @@
 		<Menu v-show="isMenuOpen" />
 
 		<section v-show="!isMenuOpen" id="main">
-			<About />
-			<Footer />
+			<!-- <About /> -->
+			<Team />
+			<!-- <Footer /> -->
 		</section>
 	</section>
 </template>
