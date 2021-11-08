@@ -1,0 +1,27 @@
+footer {
+	height: 250px;
+	background: var(--yellow);
+	border-radius: 5px 5px 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer-icons {
+	width: 55px;
+}
+
+#icon-container {
+	/* background: rgb(107, 107, 107); */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 250px;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: var(--f2);
+	font-size: 14px;
+}

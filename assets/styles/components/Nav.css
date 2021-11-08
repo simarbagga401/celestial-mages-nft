@@ -1,0 +1,35 @@
+nav {
+	/* background: rgb(255, 158, 158); */
+	position: static;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-bottom: 2px solid var(--primary-black);
+}
+
+li {
+	font-family: var(--f2);
+}
+
+#logo {
+	width: 180px;
+}
+
+#links {
+	width: 30%;
+	min-width: 400px;
+	/* background: rgb(197, 176, 255 */
+}
+
+ul {
+	display: flex;
+	font-weight: var(--w2);
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+a:hover {
+	font-family: var(--f2);
+	font-size: 12px;
+}
