@@ -11,7 +11,7 @@
 		</section>
 
 		<section v-else>
-			<div id="menu" @click="toogleMenu()">click me!</div>
+			<Hamburger :hamburger-open="isMenuOpen" @click.native="toogleMenu" />
 		</section>
 	</nav>
 </template>
@@ -21,8 +21,7 @@ export default {
 	// eslint-disable-next-line vue/require-prop-types
 	data() {
 		return {
-			menuIsOpen: false,
-			counter: 0,
+			isMenuOpen: false,
 			links: [
 				{
 					name: "About",
@@ -54,9 +53,8 @@ export default {
 	},
 	methods: {
 		toogleMenu() {
-			console.log("menu toggles")
-			this.menuIsOpen = !this.menuIsOpen
-			this.$emit("toogleMenu", this.menuIsOpen)
+			this.isMenuOpen = !this.isMenuOpen
+			this.$emit("toogleMenuState", this.isMenuOpen)
 		},
 	},
 }

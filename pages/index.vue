@@ -1,12 +1,12 @@
 <template>
 	<section>
-		<Nav @toogleMenu="toogleMenu" />
+		<Nav @toogleMenuState="toogleMenuState" />
+		<Menu v-show="isMenuOpen" />
 
-		<div v-show="!menuIsOpen">
+		<section v-show="!isMenuOpen" id="main">
 			<About />
-			<!-- <Footer /> -->
-		</div>
-		<div v-show="menuIsOpen">menu is open!</div>
+			<Footer />
+		</section>
 	</section>
 </template>
 
@@ -14,12 +14,12 @@
 export default {
 	data() {
 		return {
-			menuIsOpen: false,
+			isMenuOpen: false,
 		}
 	},
 	methods: {
-		toogleMenu(bool) {
-			this.menuIsOpen = bool
+		toogleMenuState(bool) {
+			this.isMenuOpen = bool
 		},
 	},
 }

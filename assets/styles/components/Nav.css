@@ -8,10 +8,6 @@ nav {
 	border-bottom: 2px solid var(--primary-black);
 }
 
-li {
-	font-family: var(--f2);
-}
-
 #logo {
 	width: 180px;
 }
