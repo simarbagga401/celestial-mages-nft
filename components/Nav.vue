@@ -2,20 +2,64 @@
 	<nav>
 		<img id="logo" src="../assets/icons/logo.svg" alt="" />
 
-		<section id="links">
+		<section v-if="!mobile" id="links">
 			<ul>
-				<li><a href="#About">About</a></li>
-				<li><a href="#Mint">Mint</a></li>
-				<li><a href="#Roadmap">Roadmap</a></li>
-				<li><a href="#Faq">Faq</a></li>
-				<li><a href="#Team">Team</a></li>
+				<li v-for="(link, i) in links" :key="i">
+					<a :href="link.link">{{ link.name }}</a>
+				</li>
 			</ul>
+		</section>
+
+		<section v-else>
+			<div id="menu" @click="toogleMenu()">click me!</div>
 		</section>
 	</nav>
 </template>
 
 <script>
-export default {}
+export default {
+	// eslint-disable-next-line vue/require-prop-types
+	data() {
+		return {
+			menuIsOpen: false,
+			counter: 0,
+			links: [
+				{
+					name: "About",
+					link: "#About",
+				},
+				{
+					name: "Mint",
+					link: "#Mint",
+				},
+				{
+					name: "Roadmap",
+					link: "#Roadmap",
+				},
+				{
+					name: "Faq",
+					link: "#Faq",
+				},
+				{
+					name: "Team",
+					link: "#Team",
+				},
+			],
+		}
+	},
+	computed: {
+		mobile() {
+			return window.innerWidth < 600
+		},
+	},
+	methods: {
+		toogleMenu() {
+			console.log("menu toggles")
+			this.menuIsOpen = !this.menuIsOpen
+			this.$emit("toogleMenu", this.menuIsOpen)
+		},
+	},
+}
 </script>
 
 <style scoped>
