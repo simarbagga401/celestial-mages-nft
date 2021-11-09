@@ -10,14 +10,17 @@
 			</ul>
 		</div>
 
+		<div id="heading-container">
+			<h1 class="shadow-font heading">Celestial Mages</h1>
+		</div>
+
 		<div id="content">
-			<h1 class="shadow-font">Celestial Mages</h1>
-			<h2 class="outline-font">NFT Collection</h2>
+			<h2 class="outline-font sub-heading">NFT Collection</h2>
 			<p class="description-font">
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,
-				culpa.
+				100 unique Pixel Modern Art NFT art pieces <br />(including total 20
+				animated art pieces)
 			</p>
-			<MintCard :title="mintCardTitle" />
+			<MintCard :title="mintcardtitle" />
 		</div>
 
 		<div id="image-container">
@@ -29,12 +32,12 @@
 export default {
 	data() {
 		return {
-			mintCardTitle:
-				"Enter the amount of Celestial Mages you would like to buy!",
+			mintcardtitle:
+				"Enter the amount of celestial mages you would like to buy!",
 			icons: [
 				{
 					src: require("../assets/icons/opensea_icon.svg"),
-					link: "https://twitter/pixelNBOis",
+					link: "https://twitter/pixelnbois",
 				},
 				{
 					src: require("../assets/icons/twitter_icon.svg"),

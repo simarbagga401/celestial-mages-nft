@@ -11,6 +11,9 @@ footer {
 .footer-icons {
 	width: 55px;
 }
+.footer-icons:hover {
+	opacity: 0.9;
+}
 
 #icon-container {
 	/* background: rgb(107, 107, 107); */

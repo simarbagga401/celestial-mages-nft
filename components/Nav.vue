@@ -48,7 +48,7 @@ export default {
 	},
 	computed: {
 		mobile() {
-			return window.innerWidth < 600
+			return window.innerWidth < 700
 		},
 	},
 	methods: {

@@ -6,7 +6,7 @@
 		<section v-show="!isMenuOpen" id="main">
 			<About />
 			<!-- <Team /> -->
-			<!-- <Footer /> -->
+			<Footer />
 		</section>
 	</section>
 </template>
@@ -25,3 +25,11 @@ export default {
 	},
 }
 </script>
+
+<style scoped>
+/* section#main {
+	background: hsl(0, 100%, 66%);
+	width: 100vw;
+	height: 100vh;
+} */
+</style>

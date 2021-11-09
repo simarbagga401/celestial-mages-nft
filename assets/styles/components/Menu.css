@@ -16,3 +16,10 @@ ul {
 	font-size: 22px;
 	font-weight: var(--w3);
 }
+
+img {
+	margin: 10px;
+}
+img:hover {
+	opacity: 0.9;
+}
