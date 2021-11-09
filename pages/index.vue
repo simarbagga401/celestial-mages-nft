@@ -5,8 +5,8 @@
 
 		<section v-show="!isMenuOpen" id="main">
 			<About />
-			<!-- <Team /> -->
-			<Footer />
+			<Team />
+			<!-- <Footer /> -->
 		</section>
 	</section>
 </template>

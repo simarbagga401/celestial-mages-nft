@@ -76,10 +76,10 @@ ul {
 	max-width: 700px;
 }
 
-img {
+img.icon {
 	width: 30px;
 }
-img:hover {
+img.icon:hover {
 	opacity: 0.9;
 }
 

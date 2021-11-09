@@ -25,11 +25,11 @@ export default {
 			links: [
 				{
 					name: "About",
-					link: "#About",
+					link: "#heading-container",
 				},
 				{
 					name: "Mint",
-					link: "#Mint",
+					link: "#card",
 				},
 				{
 					name: "Roadmap",

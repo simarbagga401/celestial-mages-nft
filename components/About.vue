@@ -4,7 +4,7 @@
 			<ul>
 				<li v-for="(icon, i) in icons" :key="i">
 					<a :href="icon.link">
-						<img :src="icon.src" alt="" />
+						<img class="icon" :src="icon.src" alt="" />
 					</a>
 				</li>
 			</ul>
