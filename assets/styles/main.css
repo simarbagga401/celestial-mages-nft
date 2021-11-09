@@ -39,3 +39,19 @@
 	color: var(--primary-black);
 	scroll-behavior: smooth;
 }
+
+.shadow-font {
+	text-shadow: var(--text-shadow);
+	font-family: var(--f2);
+}
+.outline-font {
+	font-family: var(--f2);
+	color: var(--yellow);
+	text-shadow: var(--outline-right), var(--outline-left), var(--outline-top),
+		var(--outline-bottom);
+}
+.description-font {
+	font-size: 24px;
+	font-weight: var(--w2);
+	color: var(--purple);
+}

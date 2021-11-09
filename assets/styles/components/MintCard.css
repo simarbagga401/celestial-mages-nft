@@ -1,7 +1,5 @@
 #card {
-	/* background: rgb(255, 180, 180); */
-	resize: both;
-	overflow: auto;
+	background: var(--primary-white);
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;

@@ -1,0 +1,31 @@
+#links-container {
+	background: rgb(255, 253, 146);
+}
+#content {
+	background: rgb(146, 251, 255);
+}
+
+#image-container {
+	background: rgb(211, 146, 255);
+}
+#image-container img {
+	width: 15vw;
+}
+
+img {
+	width: 30px;
+}
+
+h1 {
+	text-shadow: var(--text-shadow);
+	font-family: var(--f2);
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+section {
+	height: 90vh;
+}

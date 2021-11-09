@@ -1,27 +1,55 @@
 <template>
-	<div class="card">
-		<h2>NFT Collection</h2>
-	</div>
+	<section id="about-section">
+		<div id="links-container">
+			<ul>
+				<li v-for="(icon, i) in icons" :key="i">
+					<a :href="icon.link">
+						<img :src="icon.src" alt="" />
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div id="content">
+			<h1 class="shadow-font">Celestial Mages</h1>
+			<h2 class="outline-font">NFT Collection</h2>
+			<p class="description-font">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid,
+				culpa.
+			</p>
+			<MintCard :title="mintCardTitle" />
+		</div>
+
+		<div id="image-container">
+			<img src="../assets/images/red_mage.svg" alt="" />
+		</div>
+	</section>
 </template>
 <script>
-export default {}
+export default {
+	data() {
+		return {
+			mintCardTitle:
+				"Enter the amount of Celestial Mages you would like to buy!",
+			icons: [
+				{
+					src: require("../assets/icons/opensea_icon.svg"),
+					link: "https://twitter/pixelNBOis",
+				},
+				{
+					src: require("../assets/icons/twitter_icon.svg"),
+					link: "https://twitter/pixelNBOis",
+				},
+				{
+					src: require("../assets/icons/discord_icon.svg"),
+					link: "https://twitter/pixelNBOis",
+				},
+			],
+		}
+	},
+}
 </script>
 
 <style scoped>
-.card {
-	box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.4);
-	-webkit-box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.4);
-	-moz-box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.4);
-}
-
-h2,
-h2:before {
-	position: absolute;
-	font-size: 40px;
-	font-weight: normal;
-	font-family: var(--f2);
-	color: var(--yellow);
-	/* text-shadow: var(--outline-right), var(--outline-left), var(--outline-top),
-		var(--outline-bottom); */
-}
+@import "../assets/styles/components/About.css";
 </style>
