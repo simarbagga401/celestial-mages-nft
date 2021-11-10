@@ -15,7 +15,22 @@ export default {
 			{
 				hid: "description",
 				name: "description",
-				content: "Pixel NFTs going to the moon!",
+				content:
+					"Pixel NFTs going to the moon! 100 unique Pixel Modern Art NFT art pieces (including total 20 animated art pieces) ",
+			},
+			{ property: "og:title", content: "Celestial Mages" },
+			{
+				property: "og:description 	",
+				content:
+					"Pixel NFTs going to the moon! 100 unique Pixel Modern Art NFT art pieces (including total 20 animated art pieces) ",
+			},
+			{
+				property: "og:image",
+				content: "../assets/icons/stamp.svg",
+			},
+			{
+				property: "og:url",
+				content: "https://celestial-mages.netlify.com",
 			},
 			{ name: "format-detection", content: "telephone=no" },
 		],
