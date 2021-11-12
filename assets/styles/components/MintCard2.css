@@ -1,0 +1,84 @@
+#card {
+	background: var(--primary-white);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: left;
+	padding-left: 30px;
+	width: 100%;
+	max-width: 500px;
+	min-width: 300px;
+	height: 250px;
+	border-radius: 7px;
+	color: var(--purple);
+	/* margin: 100px; */
+}
+
+#card {
+	box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.2),
+		3px -4px 10px 0px rgba(0, 0, 0, 0.2);
+
+	-webkit-box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.2),
+		3px -4px 10px 0px rgba(0, 0, 0, 0.2);
+
+	-moz-box-shadow: -3px 4px 10px 0px rgba(0, 0, 0, 0.2),
+		3px -4px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+input {
+	padding: 15px;
+	width: 60%;
+	border-radius: 5px;
+}
+
+input {
+	box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.16) inset,
+		-5px -5px 15px 0px rgba(0, 0, 0, 0.16) inset;
+
+	-webkit-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.16) inset,
+		-5px -5px 15px 0px rgba(0, 0, 0, 0.16) inset;
+
+	-moz-box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.16) inset,
+		-5px -5px 15px 0px rgba(0, 0, 0, 0.16) inset;
+}
+
+input::placeholder {
+	color: var("--purple");
+	font-size: 15px;
+}
+
+p {
+	color: var(--purple);
+	font-weight: var(--w3);
+}
+
+a {
+	width: 100px;
+	border-radius: 7px;
+	height: 45px;
+	padding: 10px 20px;
+	transition: all 0.3s ease-in-out;
+}
+
+#btn2 {
+	font-weight: var(--w3);
+	background: var(--purple);
+	color: var(--primary-white);
+}
+
+#btn1 {
+	background: var(--secondary-white);
+	border: 2px solid var(--purple);
+}
+
+#btn2:hover,
+#btn:focus {
+	opacity: 0.9;
+}
+
+#btn1:hover,
+#btn1:focus {
+	border: 2px solid var(--secondary-white);
+	color: var(--primary-white);
+	background: var(--purple);
+}

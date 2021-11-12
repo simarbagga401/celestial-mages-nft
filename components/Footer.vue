@@ -18,15 +18,15 @@ export default {
 			icons: [
 				{
 					src: require("../assets/icons/opensea_icon.svg"),
-					link: "https://twitter/pixelnbois",
+					link: "https://opensea.io/collection/celestial-mages",
 				},
 				{
 					src: require("../assets/icons/twitter_icon.svg"),
-					link: "https://twitter/pixelNBOis",
+					link: "https://twitter.com/PIXELSboisNFT",
 				},
 				{
 					src: require("../assets/icons/discord_icon.svg"),
-					link: "https://twitter/pixelNBOis",
+					link: "#",
 				},
 			],
 		}

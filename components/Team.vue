@@ -15,13 +15,19 @@
 				nobis dolore aliquam quos laborum?
 			</p>
 
-			<MintCard title="Mint Some Celestial Mages Now! (Max: 6)" />
+			<MintCard2 :title="mintcardtitle" />
 		</div>
 	</section>
 </template>
 
 <script>
-export default {}
+export default {
+	data() {
+		return {
+			mintcardtitle: "Mint Celestial Mages From Opensea!",
+		}
+	},
+}
 </script>
 
 <style scoped>

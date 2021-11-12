@@ -20,7 +20,7 @@
 				100 unique Pixel Modern Art NFT art pieces <br />(including total 20
 				animated art pieces)
 			</p>
-			<MintCard :title="mintcardtitle" />
+			<MintCard2 :title="mintcardtitle" />
 		</div>
 
 		<div id="image-container">
@@ -32,20 +32,19 @@
 export default {
 	data() {
 		return {
-			mintcardtitle:
-				"Enter the amount of celestial mages you would like to buy!",
+			mintcardtitle: "Mint Celestial Mages From Opensea!",
 			icons: [
 				{
 					src: require("../assets/icons/opensea_icon.svg"),
-					link: "https://twitter/pixelnbois",
+					link: "https://opensea.io/collection/celestial-mages",
 				},
 				{
 					src: require("../assets/icons/twitter_icon.svg"),
-					link: "https://twitter/pixelNBOis",
+					link: "https://twitter.com/PIXELSboisNFT",
 				},
 				{
 					src: require("../assets/icons/discord_icon.svg"),
-					link: "https://twitter/pixelNBOis",
+					link: "#",
 				},
 			],
 		}
