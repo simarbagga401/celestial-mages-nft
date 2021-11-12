@@ -1,7 +1,7 @@
 #roadmap-section {
-	height: 100vh;
+	height: 130vh;
 	width: 100vw;
-	background: rgb(211, 146, 255);
+	/* background: rgb(211, 146, 255); */
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
@@ -9,22 +9,21 @@
 
 #content,
 #image-container {
-	width: 40%;
+	width: 50%;
 	height: 100%;
 	display: flex;
 	padding: 20px;
 }
 
 #content {
-	width: 60%;
-	background: rgb(146, 255, 164);
+	/* background: rgb(146, 255, 164); */
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: space-evenly;
 }
 
 #image-container {
-	background: rgb(186, 255, 146);
+	/* background: rgb(186, 255, 146); */
 	flex-direction: column;
 	align-items: center;
 	justify-content: flex-start;

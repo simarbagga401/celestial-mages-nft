@@ -1,5 +1,5 @@
 section {
-	background: rgb(255, 141, 141);
+	/* background: rgb(255, 141, 141); */
 	height: 90vh;
 	width: 100vw;
 	display: grid;
@@ -11,7 +11,7 @@ section {
 }
 
 #heading-container {
-	background: rgb(255, 141, 217);
+	/* background: rgb(255, 141, 217); */
 	grid-area: heading;
 	display: flex;
 	align-items: center;
@@ -20,7 +20,7 @@ section {
 }
 
 #links-container {
-	background: rgb(255, 253, 146);
+	/* background: rgb(255, 253, 146); */
 	grid-area: links;
 	display: flex;
 	align-items: flex-end;
@@ -37,6 +37,8 @@ section {
 } */
 #content {
 	/* background: rgb(146, 251, 255); */
+	width: auto;
+	height: auto;
 	grid-area: content;
 	display: flex;
 	flex-direction: column;
@@ -57,7 +59,7 @@ ul {
 }
 
 #image-container {
-	background: rgb(211, 146, 255);
+	/* background: rgb(211, 146, 255); */
 	width: auto;
 	height: auto;
 	grid-area: image;

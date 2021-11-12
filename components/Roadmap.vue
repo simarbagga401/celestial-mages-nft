@@ -10,17 +10,20 @@
 			<DetailsCard
 				:title="details[0].title"
 				:description="details[0].description"
-				:is-stamp-visible="false"
+				:is-stamp-visible="true"
+				:is-description-visible="true"
 			/>
 			<DetailsCard
 				:title="details[1].title"
 				:description="details[1].description"
-				:is-stamp-visible="false"
+				:is-stamp-visible="true"
+				:is-description-visible="true"
 			/>
 			<DetailsCard
 				:title="details[2].title"
 				:description="details[2].description"
-				:is-stamp-visible="false"
+				:is-stamp-visible="true"
+				:is-description-visible="true"
 			/>
 		</div>
 	</section>

@@ -9,6 +9,7 @@
 	max-width: 500px;
 	min-width: 300px;
 	height: 250px;
+	min-height: 180px;
 	border-radius: 7px;
 	color: var(--purple);
 	margin: 10px;
@@ -27,4 +28,9 @@
 
 img {
 	width: 45px;
+}
+
+p {
+	font-size: 16px;
+	margin: 10px;
 }

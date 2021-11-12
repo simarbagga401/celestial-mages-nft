@@ -1,12 +1,14 @@
 <template>
 	<div id="details-card">
-		<div id="stamp-container">
+		<div v-if="isStampVisible" id="stamp-container">
 			<img id="stamp" src="../assets/icons/stamp.svg" alt="" />
 		</div>
 
 		<div class="content">
 			<h2 class="shadow-font">{{ title }}</h2>
-			<p class="description-font">{{ description }}</p>
+			<p v-if="isDescriptionVisible" class="description-font">
+				{{ description }}
+			</p>
 		</div>
 	</div>
 </template>
@@ -14,7 +16,7 @@
 <script>
 export default {
 	// eslint-disable-next-line vue/require-prop-types
-	props: ["title", "description", "isStampVisible"],
+	props: ["title", "description", "isStampVisible", "isDescriptionVisible"],
 }
 </script>
 
