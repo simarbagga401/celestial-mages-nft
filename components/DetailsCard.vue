@@ -1,7 +1,7 @@
 <template>
 	<div id="details-card">
 		<div v-if="isStampVisible" id="stamp-container">
-			<img id="stamp" src="../assets/icons/stamp.svg" alt="" />
+			<img id="stamp" src="../assets/icons/stamp.png" alt="" />
 		</div>
 
 		<div class="content">

@@ -1,7 +1,7 @@
 <template>
 	<section id="team-section">
 		<div id="image-container">
-			<img src="../assets/images/me2.svg" alt="" />
+			<img src="../assets/images/me.png" alt="" />
 		</div>
 
 		<div id="content">

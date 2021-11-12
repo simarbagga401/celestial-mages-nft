@@ -1,6 +1,6 @@
 <template>
 	<nav>
-		<img id="logo" src="../assets/icons/logo.svg" alt="" />
+		<img id="logo" src="../assets/icons/logo.png" alt="" />
 
 		<section v-if="!mobile" id="links">
 			<ul>

@@ -2,7 +2,7 @@
 	<div id="card">
 		<p>{{ title }}</p>
 		<div class="img-container">
-			<img src="../assets/icons/logo.svg" alt="" />
+			<img src="../assets/icons/logo.png" alt="" />
 		</div>
 
 		<div id="button-container">

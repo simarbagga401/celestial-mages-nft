@@ -24,7 +24,7 @@
 		</div>
 
 		<div id="image-container">
-			<img src="../assets/images/red_mage.svg" alt="" />
+			<img src="../assets/images/red-mage.png" alt="" />
 		</div>
 	</section>
 </template>

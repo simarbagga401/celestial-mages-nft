@@ -30,7 +30,7 @@
 		</div>
 
 		<div id="image-container">
-			<img src="../assets/images/mage-frame2.svg" alt="" />
+			<img src="../assets/images/mage-frame2.png" alt="" />
 		</div>
 	</section>
 </template>

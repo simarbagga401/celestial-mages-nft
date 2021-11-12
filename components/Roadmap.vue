@@ -1,7 +1,7 @@
 <template>
 	<section id="roadmap-section">
 		<div id="image-container">
-			<img src="../assets/images/mage-frame1.svg" alt="" />
+			<img src="../assets/images/mage-frame1.png" alt="" />
 		</div>
 
 		<div id="content">
