@@ -20,7 +20,7 @@ export default {
 			},
 			{ property: "og:title", content: "Celestial Mages" },
 			{
-				property: "og:description 	",
+				property: "og:description",
 				content:
 					"Pixel NFTs going to the moon! 100 unique Pixel Modern Art NFT art pieces (including total 20 animated art pieces) ",
 			},

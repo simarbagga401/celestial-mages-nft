@@ -5,8 +5,10 @@
 
 		<section v-show="!isMenuOpen" id="main">
 			<About />
+			<Roadmap />
+			<Faq />
 			<Team />
-			<!-- <Footer /> -->
+			<Footer />
 		</section>
 	</section>
 </template>

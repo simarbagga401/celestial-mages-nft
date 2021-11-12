@@ -33,15 +33,15 @@ export default {
 				},
 				{
 					name: "Roadmap",
-					link: "#Roadmap",
+					link: "#roadmap-section",
 				},
 				{
 					name: "Faq",
-					link: "#Faq",
+					link: "#faq-section",
 				},
 				{
 					name: "Team",
-					link: "#Team",
+					link: "#team-section",
 				},
 			],
 		}
