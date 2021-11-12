@@ -31,7 +31,7 @@
 
 #image-container img {
 	width: 35vmax;
-	height: 35vmax;
+	/* height: 35vmax; */
 	max-width: 700px;
 }
 
@@ -42,17 +42,17 @@ p {
 @media screen and (max-width: 800px) {
 	#team-section {
 		flex-direction: column;
-		height: 130vh;
+		height: 180vh;
 	}
 	#content,
 	#image-container {
-		height: 75%;
+		height: 70%;
 		width: 100%;
 		align-items: center;
 		justify-content: space-evenly;
 	}
 	#image-container {
-		height: 25%;
+		height: 30%;
 		justify-content: center;
 	}
 }

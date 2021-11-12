@@ -79,3 +79,9 @@
 		font-size: 18px;
 	}
 }
+
+@media screen and (max-height: 725px) {
+	.mage-frame {
+		display: none;
+	}
+}

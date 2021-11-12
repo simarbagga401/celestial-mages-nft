@@ -31,8 +31,8 @@
 }
 
 #image-container img {
-	width: 45vmax;
-	height: 45vmax;
+	width: 40vmax;
+	/* height: 45vmax; */
 	max-width: 700px;
 }
 
@@ -43,7 +43,7 @@
 	}
 	#content,
 	#image-container {
-		height: 70%;
+		height: 60%;
 		width: 100%;
 		align-items: center;
 		justify-content: space-evenly;
@@ -51,5 +51,11 @@
 	#image-container {
 		height: 30%;
 		justify-content: center;
+	}
+}
+
+@media screen and (max-height: 725px) {
+	#content {
+		height: 100%;
 	}
 }

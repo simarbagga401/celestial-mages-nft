@@ -98,7 +98,7 @@ img.icon:hover {
 	}
 
 	section {
-		height: 120vh;
+		height: 130vh;
 		width: 100vw;
 		grid-template-columns: 1fr;
 		grid-template-rows: 10% 35% 55%;

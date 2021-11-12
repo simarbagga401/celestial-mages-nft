@@ -31,24 +31,31 @@
 
 #image-container img {
 	width: 45vmax;
-	height: 45vmax;
+	/* height: 45vmax; */
 	max-width: 700px;
+	/* margin: 10px; */
 }
 
 @media screen and (max-width: 800px) {
 	#roadmap-section {
 		flex-direction: column;
-		height: 150vh;
+		height: 180vh;
 	}
 	#content,
 	#image-container {
-		height: 70%;
+		height: 60%;
 		width: 100%;
 		align-items: center;
 		justify-content: space-evenly;
 	}
 	#image-container {
-		height: 30%;
+		height: 40%;
 		justify-content: center;
+	}
+}
+
+@media screen and (max-height: 725px) {
+	#content {
+		height: 100%;
 	}
 }
